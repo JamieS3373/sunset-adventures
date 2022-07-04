@@ -744,10 +744,12 @@
       font-size: 1.5em;
     }
 
-    #sndmsgfb {
-      
-       
-    }
+  /*Added specific styling to the Link for Facebook Messenging*/
+
+    #facebookmsg:link    {color:#ffffff;}
+    #facebookmsg:visited {color:#ffffff;}
+    #facebookmsg:hover   {color:red;}
+    #facebookmsg:active  {color:#ffffff;}
   
    /*===================================================================
     FAQ PAGE
