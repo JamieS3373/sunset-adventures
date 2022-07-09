@@ -426,6 +426,13 @@
     .contact-content p {
       margin: 0;
     }
+
+      /*Added specific styling to the Link for Facebook Messenging*/
+
+      #facebookmsg:link    {color:#ffffff;}
+      #facebookmsg:visited {color:#ffffff;}
+      #facebookmsg:hover   {color:red;}
+      #facebookmsg:active  {color:#ffffff;}
   
     /*===================================================================================================
       Faq Page
@@ -459,6 +466,14 @@
     .faq-content h4 {
       line-height: 1.333;
     }
+
+  /*===========================================================================
+    Lodging - see linke 67 in lodging html file
+  ============================================================================*/
+
+   #bullet-list li {
+    list-style-type: disc;
+  }
   
   /* ==========================================================================
      Helper classes
@@ -743,13 +758,6 @@
     .contact-content h4 {
       font-size: 1.5em;
     }
-
-  /*Added specific styling to the Link for Facebook Messenging*/
-
-    #facebookmsg:link    {color:#ffffff;}
-    #facebookmsg:visited {color:#ffffff;}
-    #facebookmsg:hover   {color:red;}
-    #facebookmsg:active  {color:#ffffff;}
   
    /*===================================================================
     FAQ PAGE
