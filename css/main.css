@@ -433,6 +433,27 @@
       #facebookmsg:visited {color:#ffffff;}
       #facebookmsg:hover   {color:red;}
       #facebookmsg:active  {color:#ffffff;}
+
+      /*Added specific styling to the "here" link*/
+
+      .here-link a:link {
+        color:#ffffff
+      }
+
+      .here-link a:visited {
+        color:#ffffff
+      }
+     
+      .here-link a:hover {
+        color:red
+      }
+
+      .here-link a:active {
+        color:#ffffff
+      }
+     
+      
+
   
     /*===================================================================================================
       Faq Page
@@ -470,6 +491,38 @@
   /*===========================================================================
     Lodging - see linke 67 in lodging html file
   ============================================================================*/
+  .lodging {
+    background-color: #1D45B3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+  }
+
+  .lodging .content-wrapper {
+    margin: 50px 0 0 0; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+  }
+
+  .lodging h2 {
+    margin-bottom: 40px;
+    line-height: 1;
+  }
+
+  .lodging-content {
+    margin-bottom: 50px;
+  }
+
+  .lodging-content h4 {
+    line-height: 1.333;
+  }
+
+
+
+
 
    #bullet-list li {
     list-style-type: disc;
@@ -781,8 +834,35 @@
       font-size: .875em;
       line-height: 1.125;
     }
-  }
   
+  
+
+/******************************************************
+     LODGING 
+******************************************************/
+
+
+  .lodging .content-wrapper {
+    justify-content: space-between;
+
+  }
+
+  .lodging-content {
+    flex-basis: 45%;
+  }
+
+  .lodging h2 {
+    width: 100%;
+  }
+
+  .lodging h4,
+  .lodging p {
+  font-size: .875em;
+  line-height: 1.125;
+  }
+}
+
+
   @media only screen and (min-width: 1200px) {
     /***DESKTOP STYLES GO HERE***/
   
@@ -886,6 +966,21 @@
    .faq p {
     font-size: 1.125em;
     line-height: 1;
+   }
+  
+  /********************************************************************
+    LODGING
+  ********************************************************************/
+  
+  .lodging h2 {
+    width: 100%;
+    font-size: 3em;
+   }
+  
+   .lodging h4,
+   .lodging-content p {
+    font-size: 1.125em;
+    line-height: 1.3;
    }
   
   }
